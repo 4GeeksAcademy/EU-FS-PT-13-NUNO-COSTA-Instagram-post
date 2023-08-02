@@ -1,0 +1,74 @@
+body{
+    background-color: lightblue;
+}
+
+div{
+   padding: 2px;
+}
+
+.post{
+    width: 600px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    background-color: white;
+}
+
+
+.postheader{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 3em;
+    justify-content: space-between;
+
+}
+
+.postTitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.justTitle{
+    font-size: large;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.threeDotMenu{
+    margin-right: 2%;
+}
+
+img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    contain: content;
+}
+
+
+.symbolsLeft{
+    display: flex;
+    justify-content: left;
+}
+
+.symbolsRight{
+    display: flex;
+    justify-content: right;
+    margin-left: 74%;
+}
+
+i{
+    font-size: xx-large;
+    margin-left: 4px;
+}
+
+.postDescription{
+    padding-right: 10px;
+    padding-left: 10px;
+}
